@@ -34,9 +34,9 @@ publishing {
     }
 
     publications {
-        create<MavenPublication>("lazy") {
-            groupId = "mx.com.inftel.javax"
-            artifactId = "lazy"
+        create<MavenPublication>("javaLazy") {
+            groupId = "mx.com.inftel.oss"
+            artifactId = "java-lazy"
             version = "1.0.0"
 
             from(components["java"])
